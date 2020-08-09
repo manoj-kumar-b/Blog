@@ -27,6 +27,10 @@ header{
 				-ms-background-size:cover;
 				min-height: 765px;
 				position: relative;
+				background-attachment: fixed;	
+				background-position: center;	
+				background-repeat: no-repeat;	
+				background-size: cover;
 			}
 			.banner-inside{
 				background: rgba(0, 0, 0, 0.5);
@@ -129,4 +133,40 @@ header{
 			.progress-bar{
 				background-color: #191919;
 				background-image: none;
+			}
+			.no-padding-asides{
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+			.parallax_image{
+				background:url(./img/keyboard_minified.jpg) no-repeat 0px 0px;
+				background-size:cover;
+				-webkit-background-size:cover;
+				-moz-background-size:cover;
+				-o-background-size:cover;
+				-ms-background-size:cover;
+				min-height: 465px;
+				position: relative;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.heading-black{
+				font-size: 45px;
+				text-align: center;
+				color: #fff;
+				font-weight: 600;
+				letter-spacing: 5px;
+				position: relative;
+				padding-top: 0.5em;
+			}
+			h3.heading-black:after {
+				position: absolute;
+				content: '';
+				width: 6%;
+				height: 3px;
+				background: #fff;
+				left: 47%;
+				bottom: -18%;
 			}
